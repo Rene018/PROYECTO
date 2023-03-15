@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Amaranth', sans-serif;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 100vh;
+    background-color: rgba(195, 233, 233, 0.534);
+}
+svg{
+    height: 500px;
+}
+
+.visible{
+    stroke: #000000;
+}
+input:focus{
+    outline: none;
+}
+input{
+    text-align: center;
+}
+.letras{
+    display: flex;
+    width: 2rem;
+    border-bottom: 2px black solid;
+}
+#contaGrap{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    gap: 3px;
+}
+#erroneas{
+    min-height: 50px;
+}
+button{
+    background-color: #eb7272d5;
+    color:#000000;
+    font-size: 1.2vw;
+    padding: 0.7vw 0.9vw ;
+    border-radius: 0.6vw;
+    border: none;
+    margin-top: 9.5vw;
+}
